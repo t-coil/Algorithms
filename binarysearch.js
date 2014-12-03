@@ -1,3 +1,5 @@
+// When this function is called, num must always be set to one for the correct result.
+
 var binarySearch = function(arr, val, num) {
     console.log(arr);
     middle = Math.floor(arr.length / 2);
